@@ -1,25 +1,25 @@
 EAGLE AutoRouter Statistics:
 
-Job           : C:/Users/A.R. Dzulqarnain/Documents/eagle/TA/RelayNew.brd
+Job           : H:/Dropbox/Akademik/Tugas Akhir/Final Projects/Works/Hardware/Boards/Control.brd
 
-Start at      : 18:42:16 (27/09/2013)
-End at        : 18:42:19 (27/09/2013)
-Elapsed time  : 00:00:03
+Start at      : 16:09:45 (28/10/2013)
+End at        : 16:09:46 (28/10/2013)
+Elapsed time  : 00:00:01
 
-Signals       :    48   RoutingGrid: 50 mil  Layers: 1
-Connections   :   126   predefined:  7 ( 0 Vias )
+Signals       :    36   RoutingGrid: 50 mil  Layers: 2
+Connections   :   103   predefined:  56 ( 0 Vias )
 
-Router memory :   14168
+Router memory :   18260
 
-Passname          :     Route Optimize1 Optimize2 Optimize3 Optimize4
+Passname          :    Busses     Route Optimize1 Optimize2 Optimize3 Optimize4
 
-Time per pass     :  00:00:02  00:00:00  00:00:00  00:00:01  00:00:00
-Number of Ripups  :        29         0         0         0         0
-max. Level        :         2         0         0         0         0
-max. Total        :        31         0         0         0         0
+Time per pass     :  00:00:01  00:00:00  00:00:00  00:00:00  00:00:00  00:00:00
+Number of Ripups  :         0         0         0         0         0         0
+max. Level        :         0         0         0         0         0         0
+max. Total        :         0         0         0         0         0         0
 
-Routed            :       119       119       119       119       119
-Vias              :         0         0         0         0         0
-Resolution        :   100.0 %   100.0 %   100.0 %   100.0 %   100.0 %
+Routed            :         9        47        47        47        47        47
+Vias              :         0        14         0         0         0         0
+Resolution        :    63.1 %   100.0 %   100.0 %   100.0 %   100.0 %   100.0 %
 
-Final             : 100.0% finished
+Final             : 96.1% finished. Polygons may have fallen apart.

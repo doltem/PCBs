@@ -17459,8 +17459,8 @@ We've spent an enormous amount of time creating and checking these footprints an
 <part name="P+5" library="supply1" deviceset="+5V" device=""/>
 <part name="X5" library="con-molex" deviceset="22-23-2021" device="" value="BUT1"/>
 <part name="P+6" library="supply1" deviceset="+5V" device=""/>
-<part name="PDM" library="adafruit" deviceset="R-US_" device="0204/7" value="10k"/>
-<part name="PDS" library="adafruit" deviceset="R-US_" device="0204/7" value="10k"/>
+<part name="PDBUT2" library="adafruit" deviceset="R-US_" device="0204/7" value="10k"/>
+<part name="PDBUT1" library="adafruit" deviceset="R-US_" device="0204/7" value="10k"/>
 <part name="SUPPLY16" library="supply2" deviceset="GND" device=""/>
 <part name="SUPPLY17" library="supply2" deviceset="GND" device=""/>
 <part name="RES" library="adafruit" deviceset="C-US" device="050-024X044" value="0,1uF"/>
@@ -17493,8 +17493,8 @@ We've spent an enormous amount of time creating and checking these footprints an
 <part name="P+7" library="supply1" deviceset="+5V" device=""/>
 <part name="X2" library="con-molex" deviceset="22-23-2021" device="" value="BUT3"/>
 <part name="P+8" library="supply1" deviceset="+5V" device=""/>
-<part name="PDM1" library="adafruit" deviceset="R-US_" device="0204/7" value="10k"/>
-<part name="PDS1" library="adafruit" deviceset="R-US_" device="0204/7" value="10k"/>
+<part name="PDBUT4" library="adafruit" deviceset="R-US_" device="0204/7" value="10k"/>
+<part name="PDBUT3" library="adafruit" deviceset="R-US_" device="0204/7" value="10k"/>
 <part name="SUPPLY2" library="supply2" deviceset="GND" device=""/>
 <part name="SUPPLY3" library="supply2" deviceset="GND" device=""/>
 <part name="X6" library="con-molex" deviceset="22-23-2031" device="" value="AL2"/>
@@ -17561,8 +17561,8 @@ We've spent an enormous amount of time creating and checking these footprints an
 <instance part="X5" gate="-1" x="-198.12" y="66.04" rot="R180"/>
 <instance part="X5" gate="-2" x="-198.12" y="68.58" rot="R180"/>
 <instance part="P+6" gate="1" x="-195.58" y="76.2"/>
-<instance part="PDM" gate="G$1" x="-170.18" y="53.34" rot="R90"/>
-<instance part="PDS" gate="G$1" x="-195.58" y="53.34" rot="R90"/>
+<instance part="PDBUT2" gate="G$1" x="-170.18" y="53.34" rot="R90"/>
+<instance part="PDBUT1" gate="G$1" x="-195.58" y="53.34" rot="R90"/>
 <instance part="SUPPLY16" gate="GND" x="-170.18" y="43.18"/>
 <instance part="SUPPLY17" gate="GND" x="-195.58" y="43.18"/>
 <instance part="RES" gate="G$1" x="-10.16" y="142.24" rot="R90"/>
@@ -17597,8 +17597,8 @@ We've spent an enormous amount of time creating and checking these footprints an
 <instance part="X2" gate="-1" x="-144.78" y="66.04" rot="R180"/>
 <instance part="X2" gate="-2" x="-144.78" y="68.58" rot="R180"/>
 <instance part="P+8" gate="1" x="-142.24" y="76.2"/>
-<instance part="PDM1" gate="G$1" x="-116.84" y="53.34" rot="R90"/>
-<instance part="PDS1" gate="G$1" x="-142.24" y="53.34" rot="R90"/>
+<instance part="PDBUT4" gate="G$1" x="-116.84" y="53.34" rot="R90"/>
+<instance part="PDBUT3" gate="G$1" x="-142.24" y="53.34" rot="R90"/>
 <instance part="SUPPLY2" gate="GND" x="-116.84" y="43.18"/>
 <instance part="SUPPLY3" gate="GND" x="-142.24" y="43.18"/>
 <instance part="X6" gate="-1" x="-50.8" y="78.74" rot="R180"/>
@@ -17703,12 +17703,12 @@ We've spent an enormous amount of time creating and checking these footprints an
 <pinref part="REG3O" gate="G$1" pin="-"/>
 </segment>
 <segment>
-<pinref part="PDM" gate="G$1" pin="1"/>
+<pinref part="PDBUT2" gate="G$1" pin="1"/>
 <wire x1="-170.18" y1="48.26" x2="-170.18" y2="45.72" width="0.1524" layer="91"/>
 <pinref part="SUPPLY16" gate="GND" pin="GND"/>
 </segment>
 <segment>
-<pinref part="PDS" gate="G$1" pin="1"/>
+<pinref part="PDBUT1" gate="G$1" pin="1"/>
 <wire x1="-195.58" y1="48.26" x2="-195.58" y2="45.72" width="0.1524" layer="91"/>
 <pinref part="SUPPLY17" gate="GND" pin="GND"/>
 </segment>
@@ -17740,12 +17740,12 @@ We've spent an enormous amount of time creating and checking these footprints an
 <pinref part="SUPPLY1" gate="GND" pin="GND"/>
 </segment>
 <segment>
-<pinref part="PDM1" gate="G$1" pin="1"/>
+<pinref part="PDBUT4" gate="G$1" pin="1"/>
 <wire x1="-116.84" y1="48.26" x2="-116.84" y2="45.72" width="0.1524" layer="91"/>
 <pinref part="SUPPLY2" gate="GND" pin="GND"/>
 </segment>
 <segment>
-<pinref part="PDS1" gate="G$1" pin="1"/>
+<pinref part="PDBUT3" gate="G$1" pin="1"/>
 <wire x1="-142.24" y1="48.26" x2="-142.24" y2="45.72" width="0.1524" layer="91"/>
 <pinref part="SUPPLY3" gate="GND" pin="GND"/>
 </segment>
@@ -18057,7 +18057,7 @@ We've spent an enormous amount of time creating and checking these footprints an
 <wire x1="-116.84" y1="60.96" x2="-116.84" y2="58.42" width="0.1524" layer="91"/>
 <wire x1="-116.84" y1="60.96" x2="-109.22" y2="60.96" width="0.1524" layer="91"/>
 <junction x="-116.84" y="60.96"/>
-<pinref part="PDM1" gate="G$1" pin="2"/>
+<pinref part="PDBUT4" gate="G$1" pin="2"/>
 <label x="-109.22" y="60.96" size="1.778" layer="95"/>
 </segment>
 </net>
@@ -18127,7 +18127,7 @@ We've spent an enormous amount of time creating and checking these footprints an
 <wire x1="-170.18" y1="60.96" x2="-170.18" y2="58.42" width="0.1524" layer="91"/>
 <wire x1="-170.18" y1="60.96" x2="-162.56" y2="60.96" width="0.1524" layer="91"/>
 <junction x="-170.18" y="60.96"/>
-<pinref part="PDM" gate="G$1" pin="2"/>
+<pinref part="PDBUT2" gate="G$1" pin="2"/>
 <label x="-162.56" y="60.96" size="1.778" layer="95"/>
 </segment>
 </net>
@@ -18143,7 +18143,7 @@ We've spent an enormous amount of time creating and checking these footprints an
 <wire x1="-142.24" y1="60.96" x2="-142.24" y2="58.42" width="0.1524" layer="91"/>
 <wire x1="-142.24" y1="60.96" x2="-134.62" y2="60.96" width="0.1524" layer="91"/>
 <junction x="-142.24" y="60.96"/>
-<pinref part="PDS1" gate="G$1" pin="2"/>
+<pinref part="PDBUT3" gate="G$1" pin="2"/>
 <label x="-134.62" y="60.96" size="1.778" layer="95"/>
 </segment>
 </net>
@@ -18159,7 +18159,7 @@ We've spent an enormous amount of time creating and checking these footprints an
 <wire x1="-195.58" y1="60.96" x2="-195.58" y2="58.42" width="0.1524" layer="91"/>
 <wire x1="-195.58" y1="60.96" x2="-187.96" y2="60.96" width="0.1524" layer="91"/>
 <junction x="-195.58" y="60.96"/>
-<pinref part="PDS" gate="G$1" pin="2"/>
+<pinref part="PDBUT1" gate="G$1" pin="2"/>
 <label x="-187.96" y="60.96" size="1.778" layer="95"/>
 </segment>
 </net>

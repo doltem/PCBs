@@ -2189,16 +2189,26 @@ design rules under a new name.</description>
 <contactref element="X12" pad="3"/>
 <contactref element="PSDA" pad="2"/>
 <contactref element="PSCL" pad="2"/>
-<polygon width="0.4064" layer="16" isolate="0.4064">
-<vertex x="11.43" y="57.15"/>
-<vertex x="3.81" y="49.53"/>
-<vertex x="3.81" y="10.16"/>
-<vertex x="11.43" y="2.54"/>
-<vertex x="74.93" y="2.54"/>
-<vertex x="81.28" y="8.89"/>
-<vertex x="81.28" y="49.53"/>
-<vertex x="72.39" y="57.15"/>
-</polygon>
+<wire x1="72.39" y1="24.13" x2="74.93" y2="31.75" width="0" layer="19" extent="1-1"/>
+<wire x1="71.12" y1="20.32" x2="72.39" y2="24.13" width="0" layer="19" extent="1-1"/>
+<wire x1="76.2" y1="20.32" x2="71.12" y2="20.32" width="0" layer="19" extent="1-1"/>
+<wire x1="54.61" y1="27.94" x2="72.39" y2="24.13" width="0" layer="19" extent="1-1"/>
+<wire x1="35.56" y1="22.86" x2="54.61" y2="27.94" width="0" layer="19" extent="1-1"/>
+<wire x1="30.48" y1="15.24" x2="35.56" y2="22.86" width="0" layer="19" extent="1-1"/>
+<wire x1="34.29" y1="6.35" x2="30.48" y2="15.24" width="0" layer="19" extent="1-1"/>
+<wire x1="43.18" y1="6.35" x2="34.29" y2="6.35" width="0" layer="19" extent="1-1"/>
+<wire x1="25.4" y1="6.35" x2="34.29" y2="6.35" width="0" layer="19" extent="1-1"/>
+<wire x1="16.51" y1="6.35" x2="25.4" y2="6.35" width="0" layer="19" extent="1-1"/>
+<wire x1="54.61" y1="6.35" x2="43.18" y2="6.35" width="0" layer="19" extent="1-1"/>
+<wire x1="57.15" y1="6.35" x2="54.61" y2="6.35" width="0" layer="19" extent="1-1"/>
+<wire x1="11.43" y1="21.59" x2="16.51" y2="6.35" width="0" layer="19" extent="1-1"/>
+<wire x1="11.43" y1="30.48" x2="11.43" y2="21.59" width="0" layer="19" extent="1-1"/>
+<wire x1="11.43" y1="39.37" x2="11.43" y2="30.48" width="0" layer="19" extent="1-1"/>
+<wire x1="11.43" y1="48.26" x2="11.43" y2="39.37" width="0" layer="19" extent="1-1"/>
+<wire x1="21.59" y1="50.8" x2="11.43" y2="48.26" width="0" layer="19" extent="1-1"/>
+<wire x1="27.94" y1="50.8" x2="21.59" y2="50.8" width="0" layer="19" extent="1-1"/>
+<wire x1="34.29" y1="50.8" x2="27.94" y2="50.8" width="0" layer="19" extent="1-1"/>
+<wire x1="40.64" y1="50.8" x2="34.29" y2="50.8" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="DIG3">
 <contactref element="ZU4" pad="11"/>
@@ -2302,24 +2312,27 @@ design rules under a new name.</description>
 <contactref element="X8" pad="1"/>
 <wire x1="60.96" y1="6.35" x2="69.85" y2="6.35" width="0.8128" layer="16"/>
 <wire x1="69.85" y1="6.35" x2="72.39" y2="8.89" width="0.8128" layer="16"/>
-<polygon width="0.4064" layer="16" isolate="0.6096">
-<vertex x="8.89" y="8.89"/>
-<vertex x="11.43" y="8.89"/>
-<vertex x="13.97" y="11.43"/>
-<vertex x="27.94" y="11.43"/>
-<vertex x="34.29" y="17.78"/>
-<vertex x="53.34" y="17.78"/>
-<vertex x="64.77" y="6.35"/>
+<polygon width="0.4064" layer="16" isolate="0.8128">
+<vertex x="10.16" y="8.89"/>
+<vertex x="13.97" y="8.89"/>
+<vertex x="17.78" y="12.7"/>
+<vertex x="25.4" y="12.7"/>
+<vertex x="30.48" y="17.78"/>
+<vertex x="48.26" y="17.78"/>
+<vertex x="55.88" y="10.16"/>
+<vertex x="59.69" y="10.16"/>
+<vertex x="63.5" y="6.35"/>
 <vertex x="69.85" y="6.35"/>
-<vertex x="74.93" y="11.43"/>
-<vertex x="76.2" y="11.43"/>
-<vertex x="78.74" y="8.89"/>
-<vertex x="78.74" y="7.62"/>
-<vertex x="74.93" y="3.81"/>
+<vertex x="72.39" y="8.89"/>
+<vertex x="74.93" y="8.89"/>
+<vertex x="76.2" y="7.62"/>
+<vertex x="76.2" y="6.35"/>
+<vertex x="73.66" y="3.81"/>
 <vertex x="10.16" y="3.81"/>
-<vertex x="10.16" y="5.08"/>
-<vertex x="8.89" y="6.35"/>
+<vertex x="8.89" y="5.08"/>
+<vertex x="8.89" y="8.89"/>
 </polygon>
+<wire x1="11.43" y1="6.35" x2="20.32" y2="6.35" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="SCL">
 <contactref element="ZU4" pad="28"/>
@@ -2384,6 +2397,18 @@ design rules under a new name.</description>
 <contactref element="ZU4" pad="5"/>
 <contactref element="X10" pad="2"/>
 <wire x1="11.43" y1="41.91" x2="40.64" y2="22.86" width="0" layer="19" extent="1-1"/>
+</signal>
+<signal name="5V">
+<polygon width="0.4064" layer="16" isolate="0.4064">
+<vertex x="11.43" y="57.15"/>
+<vertex x="3.81" y="49.53"/>
+<vertex x="3.81" y="10.16"/>
+<vertex x="11.43" y="2.54"/>
+<vertex x="74.93" y="2.54"/>
+<vertex x="81.28" y="8.89"/>
+<vertex x="81.28" y="49.53"/>
+<vertex x="72.39" y="57.15"/>
+</polygon>
 </signal>
 </signals>
 </board>
