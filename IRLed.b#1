@@ -145,7 +145,6 @@
 <hole x="3.81" y="3.81" drill="3.2"/>
 <hole x="3.81" y="21.59" drill="3.2"/>
 <hole x="16.51" y="21.59" drill="3.2"/>
-<text x="11.43" y="10.16" size="1.016" layer="1">5V</text>
 </plain>
 <libraries>
 <library name="con-molex">

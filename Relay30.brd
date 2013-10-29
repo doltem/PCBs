@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.05" unitdist="inch" unit="mm" style="lines" multiple="1" display="yes" altdistance="0.025" altunitdist="inch" altunit="inch"/>
+<grid distance="0.7" unitdist="mm" unit="mm" style="lines" multiple="1" display="yes" altdistance="0.025" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="2" name="Route2" color="1" fill="3" visible="no" active="no"/>
@@ -145,6 +145,9 @@
 <hole x="3.81" y="52.07" drill="3.2"/>
 <hole x="115.57" y="52.07" drill="3.2"/>
 <hole x="115.57" y="3.81" drill="3.2"/>
+<text x="63" y="51.8" size="0.8128" layer="1">GND</text>
+<text x="63" y="49" size="0.8128" layer="1">REL3</text>
+<text x="63" y="46.2" size="0.8128" layer="1">REL4</text>
 </plain>
 <libraries>
 <library name="pinhead">
