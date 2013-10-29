@@ -540,27 +540,27 @@ design rules under a new name.</description>
 </autorouter>
 <elements>
 <element name="JP1" library="pinhead" package="2X03" value="RELAY" x="59.69" y="48.26" rot="R270"/>
-<element name="FLY1" library="adafruit" package="DO-1N4148" value="" x="20.32" y="48.26" rot="R270"/>
+<element name="FLY1" library="adafruit" package="DO-1N4148" value="" x="26.67" y="48.26" rot="R90"/>
 <element name="RTPUL1" library="adafruit" package="0204/7" value="10k" x="13.97" y="45.72" rot="R180"/>
 <element name="RTREL1" library="adafruit" package="0204/7" value="1K" x="13.97" y="48.26" rot="R180"/>
-<element name="TREL1" library="transistor" package="TO92" value="2N3904" x="25.4" y="45.72"/>
-<element name="RELIND1" library="adafruit" package="LED3MM" value="" x="25.4" y="50.8"/>
+<element name="TREL1" library="transistor" package="TO92" value="2N3904" x="22.86" y="45.72"/>
+<element name="RELIND1" library="adafruit" package="LED3MM" value="" x="22.86" y="50.8"/>
 <element name="RRELED1" library="adafruit" package="0204/7" value="470" x="13.97" y="50.8"/>
 <element name="RELAY1" library="SparkFun-Electromechanical" package="RELAY-T9A-2" value="HKE-CMP7" x="16.51" y="26.67"/>
 <element name="REL1" library="SparkFun-Connectors" package="SCREWTERMINAL-5MM-2" value="TERM" x="13.97" y="5.08"/>
-<element name="FLY2" library="adafruit" package="DO-1N4148" value="" x="41.91" y="48.26" rot="R270"/>
+<element name="FLY2" library="adafruit" package="DO-1N4148" value="" x="48.26" y="48.26" rot="R90"/>
 <element name="RTPUL2" library="adafruit" package="0204/7" value="10k" x="35.56" y="45.72"/>
 <element name="RTREL2" library="adafruit" package="0204/7" value="1K" x="35.56" y="48.26" rot="R180"/>
-<element name="TREL2" library="transistor" package="TO92" value="2N3904" x="46.99" y="45.72"/>
-<element name="RELIND2" library="adafruit" package="LED3MM" value="" x="46.99" y="50.8"/>
+<element name="TREL2" library="transistor" package="TO92" value="2N3904" x="44.45" y="45.72"/>
+<element name="RELIND2" library="adafruit" package="LED3MM" value="" x="44.45" y="50.8"/>
 <element name="RRELED2" library="adafruit" package="0204/7" value="470" x="35.56" y="50.8"/>
 <element name="RELAY2" library="SparkFun-Electromechanical" package="RELAY-T9A-2" value="HKE-CMP7" x="45.72" y="26.67"/>
 <element name="REL2" library="SparkFun-Connectors" package="SCREWTERMINAL-5MM-2" value="TERM" x="41.91" y="5.08"/>
 <element name="FLY3" library="adafruit" package="DO-1N4148" value="" x="81.28" y="48.26" rot="R90"/>
 <element name="RTPUL3" library="adafruit" package="0204/7" value="10k" x="74.93" y="45.72"/>
 <element name="RTREL3" library="adafruit" package="0204/7" value="1K" x="74.93" y="48.26"/>
-<element name="TREL3" library="transistor" package="TO92" value="2N3904" x="86.36" y="45.72"/>
-<element name="RELIND3" library="adafruit" package="LED3MM" value="" x="86.36" y="50.8"/>
+<element name="TREL3" library="transistor" package="TO92" value="2N3904" x="85.09" y="45.72"/>
+<element name="RELIND3" library="adafruit" package="LED3MM" value="" x="85.09" y="50.8"/>
 <element name="RRELED3" library="adafruit" package="0204/7" value="470" x="74.93" y="50.8"/>
 <element name="RELAY3" library="SparkFun-Electromechanical" package="RELAY-T9A-2" value="HKE-CMP7" x="74.93" y="26.67"/>
 <element name="REL3" library="SparkFun-Connectors" package="SCREWTERMINAL-5MM-2" value="TERM" x="71.12" y="5.08"/>
@@ -622,7 +622,7 @@ design rules under a new name.</description>
 <wire x1="68.58" y1="16.51" x2="68.32" y2="16.4" width="0.3048" layer="1"/>
 <wire x1="97.79" y1="40.64" x2="97.79" y2="16.51" width="0.3048" layer="1"/>
 <wire x1="97.79" y1="16.51" x2="97.53" y2="16.4" width="0.3048" layer="1"/>
-<wire x1="58.42" y1="50.8" x2="41.91" y2="44.45" width="0" layer="19" extent="1-1"/>
+<wire x1="58.42" y1="50.8" x2="48.26" y2="52.07" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="REL1">
 <contactref element="JP1" pad="3"/>
@@ -661,7 +661,7 @@ design rules under a new name.</description>
 <contactref element="RTREL1" pad="2"/>
 <contactref element="TREL1" pad="2"/>
 <contactref element="RTPUL1" pad="2"/>
-<wire x1="25.4" y1="44.45" x2="25.4" y2="47.625" width="0.3048" layer="16"/>
+<wire x1="25.4" y1="44.45" x2="22.86" y2="47.625" width="0.3048" layer="16"/>
 <wire x1="22.86" y1="41.91" x2="25.4" y2="44.45" width="0.3048" layer="16"/>
 <wire x1="13.97" y1="41.91" x2="22.86" y2="41.91" width="0.3048" layer="16"/>
 <wire x1="10.16" y1="45.72" x2="13.97" y2="41.91" width="0.3048" layer="16"/>
@@ -672,18 +672,18 @@ design rules under a new name.</description>
 <contactref element="FLY1" pad="A"/>
 <contactref element="RELIND1" pad="K"/>
 <contactref element="RELAY1" pad="COIL2"/>
-<wire x1="26.67" y1="50.8" x2="26.67" y2="45.72" width="0.3048" layer="16"/>
-<wire x1="24.13" y1="48.26" x2="20.32" y2="52.07" width="0.3048" layer="1"/>
-<wire x1="26.67" y1="50.8" x2="24.13" y2="48.26" width="0.3048" layer="1"/>
+<wire x1="24.13" y1="50.8" x2="24.13" y2="45.72" width="0.3048" layer="16"/>
+<wire x1="24.13" y1="48.26" x2="26.67" y2="44.45" width="0.3048" layer="1"/>
+<wire x1="24.13" y1="50.8" x2="24.13" y2="48.26" width="0.3048" layer="1"/>
 <wire x1="29.21" y1="25.4" x2="20.32" y2="16.51" width="0.3048" layer="16"/>
 <wire x1="29.21" y1="43.18" x2="29.21" y2="25.4" width="0.3048" layer="16"/>
-<wire x1="26.67" y1="45.72" x2="29.21" y2="43.18" width="0.3048" layer="16"/>
+<wire x1="24.13" y1="45.72" x2="29.21" y2="43.18" width="0.3048" layer="16"/>
 <wire x1="20.32" y1="16.51" x2="20.06" y2="16.4" width="0.3048" layer="16"/>
 </signal>
 <signal name="N$3">
 <contactref element="RRELED1" pad="2"/>
 <contactref element="RELIND1" pad="A"/>
-<wire x1="24.13" y1="50.8" x2="17.78" y2="50.8" width="0.3048" layer="16"/>
+<wire x1="21.59" y1="50.8" x2="17.78" y2="50.8" width="0.3048" layer="16"/>
 </signal>
 <signal name="M1-2">
 <contactref element="REL1" pad="2"/>
@@ -709,7 +709,7 @@ design rules under a new name.</description>
 <contactref element="RTPUL2" pad="2"/>
 <wire x1="41.91" y1="48.26" x2="46.99" y2="48.26" width="0.3048" layer="1"/>
 <wire x1="39.37" y1="45.72" x2="41.91" y2="48.26" width="0.3048" layer="1"/>
-<wire x1="46.99" y1="48.26" x2="46.99" y2="47.625" width="0.3048" layer="1"/>
+<wire x1="46.99" y1="48.26" x2="44.45" y2="47.625" width="0.3048" layer="1"/>
 <wire x1="36.83" y1="48.26" x2="31.75" y2="48.26" width="0.3048" layer="16"/>
 <wire x1="39.37" y1="45.72" x2="36.83" y2="48.26" width="0.3048" layer="16"/>
 </signal>
@@ -718,17 +718,17 @@ design rules under a new name.</description>
 <contactref element="FLY2" pad="A"/>
 <contactref element="RELIND2" pad="K"/>
 <contactref element="RELAY2" pad="COIL2"/>
-<wire x1="48.26" y1="50.8" x2="48.26" y2="45.72" width="0.3048" layer="1"/>
-<wire x1="45.72" y1="48.26" x2="41.91" y2="52.07" width="0.3048" layer="16"/>
-<wire x1="48.26" y1="50.8" x2="45.72" y2="48.26" width="0.3048" layer="16"/>
+<wire x1="45.72" y1="50.8" x2="45.72" y2="45.72" width="0.3048" layer="1"/>
+<wire x1="45.72" y1="48.26" x2="48.26" y2="44.45" width="0.3048" layer="16"/>
+<wire x1="45.72" y1="50.8" x2="45.72" y2="48.26" width="0.3048" layer="16"/>
 <wire x1="49.53" y1="44.45" x2="49.53" y2="16.51" width="0.3048" layer="16"/>
-<wire x1="48.26" y1="45.72" x2="49.53" y2="44.45" width="0.3048" layer="16"/>
+<wire x1="45.72" y1="45.72" x2="49.53" y2="44.45" width="0.3048" layer="16"/>
 <wire x1="49.53" y1="16.51" x2="49.27" y2="16.4" width="0.3048" layer="16"/>
 </signal>
 <signal name="N$8">
 <contactref element="RRELED2" pad="2"/>
 <contactref element="RELIND2" pad="A"/>
-<wire x1="45.72" y1="50.8" x2="39.37" y2="50.8" width="0.3048" layer="1"/>
+<wire x1="43.18" y1="50.8" x2="39.37" y2="50.8" width="0.3048" layer="1"/>
 </signal>
 <signal name="M2-2">
 <contactref element="REL2" pad="2"/>
@@ -754,7 +754,7 @@ design rules under a new name.</description>
 <contactref element="RTPUL3" pad="2"/>
 <wire x1="78.74" y1="48.26" x2="81.28" y2="48.26" width="0.3048" layer="16"/>
 <wire x1="81.28" y1="48.26" x2="86.36" y2="48.26" width="0.3048" layer="16"/>
-<wire x1="86.36" y1="48.26" x2="86.36" y2="47.625" width="0.3048" layer="16"/>
+<wire x1="86.36" y1="48.26" x2="85.09" y2="47.625" width="0.3048" layer="16"/>
 <wire x1="81.28" y1="48.26" x2="78.74" y2="45.72" width="0.3048" layer="16"/>
 </signal>
 <signal name="N$12">
@@ -762,16 +762,16 @@ design rules under a new name.</description>
 <contactref element="FLY3" pad="A"/>
 <contactref element="RELIND3" pad="K"/>
 <contactref element="RELAY3" pad="COIL2"/>
-<wire x1="87.63" y1="50.8" x2="87.63" y2="45.72" width="0.3048" layer="1"/>
-<wire x1="87.63" y1="50.8" x2="81.28" y2="44.45" width="0.3048" layer="1"/>
+<wire x1="86.36" y1="50.8" x2="86.36" y2="45.72" width="0.3048" layer="1"/>
+<wire x1="86.36" y1="50.8" x2="81.28" y2="44.45" width="0.3048" layer="1"/>
 <wire x1="87.63" y1="25.4" x2="78.74" y2="16.51" width="0.3048" layer="1"/>
-<wire x1="87.63" y1="45.72" x2="87.63" y2="25.4" width="0.3048" layer="1"/>
+<wire x1="86.36" y1="45.72" x2="87.63" y2="25.4" width="0.3048" layer="1"/>
 <wire x1="78.74" y1="16.51" x2="78.48" y2="16.4" width="0.3048" layer="1"/>
 </signal>
 <signal name="N$13">
 <contactref element="RRELED3" pad="2"/>
 <contactref element="RELIND3" pad="A"/>
-<wire x1="85.09" y1="50.8" x2="78.74" y2="50.8" width="0.3048" layer="16"/>
+<wire x1="83.82" y1="50.8" x2="78.74" y2="50.8" width="0.3048" layer="16"/>
 </signal>
 <signal name="M3-2">
 <contactref element="REL3" pad="2"/>
