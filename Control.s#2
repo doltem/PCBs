@@ -16511,6 +16511,12 @@ With round pins</description>
 <text x="-2.54" y="-5.08" size="1.778" layer="96" rot="R90">&gt;VALUE</text>
 <pin name="+3V3" x="0" y="-2.54" visible="off" length="short" direction="sup" rot="R90"/>
 </symbol>
+<symbol name="AGND">
+<wire x1="-1.905" y1="0" x2="1.905" y2="0" width="0.254" layer="94"/>
+<wire x1="-1.0922" y1="-0.508" x2="1.0922" y2="-0.508" width="0.254" layer="94"/>
+<text x="-2.54" y="-5.08" size="1.778" layer="96" rot="R90">&gt;VALUE</text>
+<pin name="AGND" x="0" y="2.54" visible="off" length="short" direction="sup" rot="R270"/>
+</symbol>
 </symbols>
 <devicesets>
 <deviceset name="+5V" prefix="P+">
@@ -16530,6 +16536,19 @@ With round pins</description>
 <description>&lt;b&gt;SUPPLY SYMBOL&lt;/b&gt;</description>
 <gates>
 <gate name="G$1" symbol="+3V3" x="0" y="0"/>
+</gates>
+<devices>
+<device name="">
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="AGND" prefix="AGND">
+<description>&lt;b&gt;SUPPLY SYMBOL&lt;/b&gt;</description>
+<gates>
+<gate name="VR1" symbol="AGND" x="0" y="0"/>
 </gates>
 <devices>
 <device name="">
@@ -17148,37 +17167,6 @@ SMT header is CONN-09042.</description>
 </deviceset>
 </devicesets>
 </library>
-<library name="SparkFun-Aesthetics">
-<description>&lt;h3&gt;SparkFun Electronics' preferred foot prints&lt;/h3&gt;
-In this library you'll find non-functional items- supply symbols, logos, notations, frame blocks, etc.&lt;br&gt;&lt;br&gt;
-We've spent an enormous amount of time creating and checking these footprints and parts, but it is the end user's responsibility to ensure correctness and suitablity for a given componet or application. If you enjoy using this library, please buy one of our products at www.sparkfun.com.
-&lt;br&gt;&lt;br&gt;
-&lt;b&gt;Licensing:&lt;/b&gt; CC v3.0 Share-Alike You are welcome to use this library for commercial purposes. For attribution, we ask that when you begin to sell your device using our footprint, you email us with a link to the product being sold. We want bragging rights that we helped (in a very small part) to create your 8th world wonder. We would like the opportunity to feature your device on our homepage.</description>
-<packages>
-</packages>
-<symbols>
-<symbol name="DGND">
-<wire x1="-1.905" y1="0" x2="1.905" y2="0" width="0.254" layer="94"/>
-<text x="-2.54" y="-2.54" size="1.778" layer="96">&gt;VALUE</text>
-<pin name="GND" x="0" y="2.54" visible="off" length="short" direction="sup" rot="R270"/>
-</symbol>
-</symbols>
-<devicesets>
-<deviceset name="GND" prefix="GND">
-<description>&lt;b&gt;SUPPLY SYMBOL&lt;/b&gt;</description>
-<gates>
-<gate name="1" symbol="DGND" x="0" y="0"/>
-</gates>
-<devices>
-<device name="">
-<technologies>
-<technology name=""/>
-</technologies>
-</device>
-</devices>
-</deviceset>
-</devicesets>
-</library>
 <library name="pinhead">
 <description>&lt;b&gt;Pin Header Connectors&lt;/b&gt;&lt;p&gt;
 &lt;author&gt;Created by librarian@cadsoft.de&lt;/author&gt;</description>
@@ -17483,12 +17471,8 @@ We've spent an enormous amount of time creating and checking these footprints an
 <part name="RXON" library="adafruit" deviceset="R-US_" device="0204/7" value="220"/>
 <part name="XON" library="adafruit" deviceset="LED" device="3MM"/>
 <part name="P+18" library="supply1" deviceset="+5V" device=""/>
-<part name="GND1" library="SparkFun-Aesthetics" deviceset="GND" device="" value="AGND"/>
-<part name="GND4" library="SparkFun-Aesthetics" deviceset="GND" device="" value="AGND"/>
 <part name="SUPPLY1" library="supply2" deviceset="GND" device=""/>
-<part name="GND2" library="SparkFun-Aesthetics" deviceset="GND" device="" value="AGND"/>
 <part name="AGND" library="adafruit" deviceset="PINHD-1X1" device="" value="AGND"/>
-<part name="GND5" library="SparkFun-Aesthetics" deviceset="GND" device="" value="AGND"/>
 <part name="X1" library="con-molex" deviceset="22-23-2021" device="" value="BUT4"/>
 <part name="P+7" library="supply1" deviceset="+5V" device=""/>
 <part name="X2" library="con-molex" deviceset="22-23-2021" device="" value="BUT3"/>
@@ -17499,13 +17483,10 @@ We've spent an enormous amount of time creating and checking these footprints an
 <part name="SUPPLY3" library="supply2" deviceset="GND" device=""/>
 <part name="X6" library="con-molex" deviceset="22-23-2031" device="" value="AL2"/>
 <part name="P+9" library="supply1" deviceset="+5V" device=""/>
-<part name="GND3" library="SparkFun-Aesthetics" deviceset="GND" device="" value="AGND"/>
 <part name="X7" library="con-molex" deviceset="22-23-2031" device="" value="AL3"/>
 <part name="P+10" library="supply1" deviceset="+5V" device=""/>
-<part name="GND6" library="SparkFun-Aesthetics" deviceset="GND" device="" value="AGND"/>
 <part name="X8" library="con-molex" deviceset="22-23-2031" device="" value="AL4"/>
 <part name="P+11" library="supply1" deviceset="+5V" device=""/>
-<part name="GND7" library="SparkFun-Aesthetics" deviceset="GND" device="" value="AGND"/>
 <part name="X9" library="con-molex" deviceset="22-23-2031" device="" value="DIG1"/>
 <part name="P+12" library="supply1" deviceset="+5V" device=""/>
 <part name="X10" library="con-molex" deviceset="22-23-2031" device="" value="DIG2"/>
@@ -17523,6 +17504,13 @@ We've spent an enormous amount of time creating and checking these footprints an
 <part name="PSDA" library="adafruit" deviceset="R-US_" device="0204/7" value="4k7"/>
 <part name="PSCL" library="adafruit" deviceset="R-US_" device="0204/7" value="4k7"/>
 <part name="P+19" library="supply1" deviceset="+5V" device=""/>
+<part name="AGND1" library="supply1" deviceset="AGND" device=""/>
+<part name="AGND2" library="supply1" deviceset="AGND" device=""/>
+<part name="AGND3" library="supply1" deviceset="AGND" device=""/>
+<part name="AGND4" library="supply1" deviceset="AGND" device=""/>
+<part name="AGND5" library="supply1" deviceset="AGND" device=""/>
+<part name="AGND6" library="supply1" deviceset="AGND" device=""/>
+<part name="AGND7" library="supply1" deviceset="AGND" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -17585,12 +17573,8 @@ We've spent an enormous amount of time creating and checking these footprints an
 <instance part="RXON" gate="G$1" x="-43.18" y="132.08"/>
 <instance part="XON" gate="G$1" x="-38.1" y="127"/>
 <instance part="P+18" gate="1" x="-175.26" y="149.86"/>
-<instance part="GND1" gate="1" x="-68.58" y="71.12"/>
-<instance part="GND4" gate="1" x="30.48" y="104.14"/>
 <instance part="SUPPLY1" gate="GND" x="38.1" y="99.06"/>
-<instance part="GND2" gate="1" x="25.4" y="111.76"/>
 <instance part="AGND" gate="G$1" x="-205.74" y="129.54" rot="R180"/>
-<instance part="GND5" gate="1" x="-195.58" y="124.46"/>
 <instance part="X1" gate="-1" x="-119.38" y="66.04" rot="R180"/>
 <instance part="X1" gate="-2" x="-119.38" y="68.58" rot="R180"/>
 <instance part="P+7" gate="1" x="-116.84" y="76.2"/>
@@ -17605,17 +17589,14 @@ We've spent an enormous amount of time creating and checking these footprints an
 <instance part="X6" gate="-2" x="-50.8" y="81.28" rot="R180"/>
 <instance part="X6" gate="-3" x="-50.8" y="83.82" rot="R180"/>
 <instance part="P+9" gate="1" x="-43.18" y="91.44"/>
-<instance part="GND3" gate="1" x="-43.18" y="71.12"/>
 <instance part="X7" gate="-1" x="-22.86" y="78.74" rot="R180"/>
 <instance part="X7" gate="-2" x="-22.86" y="81.28" rot="R180"/>
 <instance part="X7" gate="-3" x="-22.86" y="83.82" rot="R180"/>
 <instance part="P+10" gate="1" x="-15.24" y="91.44"/>
-<instance part="GND6" gate="1" x="-15.24" y="71.12"/>
 <instance part="X8" gate="-1" x="2.54" y="78.74" rot="R180"/>
 <instance part="X8" gate="-2" x="2.54" y="81.28" rot="R180"/>
 <instance part="X8" gate="-3" x="2.54" y="83.82" rot="R180"/>
 <instance part="P+11" gate="1" x="10.16" y="91.44"/>
-<instance part="GND7" gate="1" x="10.16" y="71.12"/>
 <instance part="X9" gate="-1" x="-76.2" y="48.26" rot="R180"/>
 <instance part="X9" gate="-2" x="-76.2" y="50.8" rot="R180"/>
 <instance part="X9" gate="-3" x="-76.2" y="53.34" rot="R180"/>
@@ -17641,6 +17622,13 @@ We've spent an enormous amount of time creating and checking these footprints an
 <instance part="PSDA" gate="G$1" x="71.12" y="53.34" rot="R90"/>
 <instance part="PSCL" gate="G$1" x="78.74" y="53.34" rot="R90"/>
 <instance part="P+19" gate="1" x="83.82" y="66.04"/>
+<instance part="AGND1" gate="VR1" x="-195.58" y="124.46"/>
+<instance part="AGND2" gate="VR1" x="-68.58" y="71.12"/>
+<instance part="AGND3" gate="VR1" x="-43.18" y="71.12"/>
+<instance part="AGND4" gate="VR1" x="-15.24" y="71.12"/>
+<instance part="AGND5" gate="VR1" x="10.16" y="71.12"/>
+<instance part="AGND6" gate="VR1" x="30.48" y="104.14"/>
+<instance part="AGND7" gate="VR1" x="25.4" y="111.76"/>
 </instances>
 <busses>
 </busses>
@@ -17804,11 +17792,6 @@ We've spent an enormous amount of time creating and checking these footprints an
 <pinref part="JP1" gate="A" pin="1"/>
 <wire x1="55.88" y1="76.2" x2="45.72" y2="76.2" width="0.1524" layer="91"/>
 <label x="45.72" y="76.2" size="1.778" layer="95"/>
-</segment>
-<segment>
-<pinref part="JP2" gate="A" pin="1"/>
-<wire x1="55.88" y1="45.72" x2="45.72" y2="45.72" width="0.1524" layer="91"/>
-<label x="45.72" y="45.72" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="N$1" class="0">
@@ -18020,6 +18003,11 @@ We've spent an enormous amount of time creating and checking these footprints an
 <junction x="78.74" y="60.96"/>
 <pinref part="P+19" gate="1" pin="+5V"/>
 </segment>
+<segment>
+<pinref part="JP2" gate="A" pin="1"/>
+<wire x1="55.88" y1="45.72" x2="45.72" y2="45.72" width="0.1524" layer="91"/>
+<label x="45.72" y="45.72" size="1.778" layer="95"/>
+</segment>
 </net>
 <net name="DIG3" class="0">
 <segment>
@@ -18216,42 +18204,42 @@ We've spent an enormous amount of time creating and checking these footprints an
 <pinref part="ZU4" gate="G$1" pin="AGND"/>
 <wire x1="40.64" y1="119.38" x2="30.48" y2="119.38" width="0.1524" layer="91"/>
 <wire x1="30.48" y1="119.38" x2="30.48" y2="106.68" width="0.1524" layer="91"/>
-<pinref part="GND4" gate="1" pin="GND"/>
+<pinref part="AGND6" gate="VR1" pin="AGND"/>
 </segment>
 <segment>
 <pinref part="X3" gate="-1" pin="S"/>
 <wire x1="-73.66" y1="78.74" x2="-68.58" y2="78.74" width="0.1524" layer="91"/>
 <wire x1="-68.58" y1="78.74" x2="-68.58" y2="73.66" width="0.1524" layer="91"/>
-<pinref part="GND1" gate="1" pin="GND"/>
+<pinref part="AGND2" gate="VR1" pin="AGND"/>
 </segment>
 <segment>
 <wire x1="25.4" y1="116.84" x2="25.4" y2="114.3" width="0.1524" layer="91"/>
 <pinref part="REF" gate="G$1" pin="2"/>
-<pinref part="GND2" gate="1" pin="GND"/>
+<pinref part="AGND7" gate="VR1" pin="AGND"/>
 </segment>
 <segment>
 <pinref part="AGND" gate="G$1" pin="1"/>
 <wire x1="-203.2" y1="129.54" x2="-195.58" y2="129.54" width="0.1524" layer="91"/>
 <wire x1="-195.58" y1="129.54" x2="-195.58" y2="127" width="0.1524" layer="91"/>
-<pinref part="GND5" gate="1" pin="GND"/>
+<pinref part="AGND1" gate="VR1" pin="AGND"/>
 </segment>
 <segment>
 <pinref part="X6" gate="-1" pin="S"/>
 <wire x1="-48.26" y1="78.74" x2="-43.18" y2="78.74" width="0.1524" layer="91"/>
 <wire x1="-43.18" y1="78.74" x2="-43.18" y2="73.66" width="0.1524" layer="91"/>
-<pinref part="GND3" gate="1" pin="GND"/>
+<pinref part="AGND3" gate="VR1" pin="AGND"/>
 </segment>
 <segment>
 <pinref part="X7" gate="-1" pin="S"/>
 <wire x1="-20.32" y1="78.74" x2="-15.24" y2="78.74" width="0.1524" layer="91"/>
 <wire x1="-15.24" y1="78.74" x2="-15.24" y2="73.66" width="0.1524" layer="91"/>
-<pinref part="GND6" gate="1" pin="GND"/>
+<pinref part="AGND4" gate="VR1" pin="AGND"/>
 </segment>
 <segment>
 <pinref part="X8" gate="-1" pin="S"/>
 <wire x1="5.08" y1="78.74" x2="10.16" y2="78.74" width="0.1524" layer="91"/>
 <wire x1="10.16" y1="78.74" x2="10.16" y2="73.66" width="0.1524" layer="91"/>
-<pinref part="GND7" gate="1" pin="GND"/>
+<pinref part="AGND5" gate="VR1" pin="AGND"/>
 </segment>
 </net>
 <net name="SCL" class="0">
