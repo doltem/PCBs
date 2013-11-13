@@ -4942,14 +4942,7 @@ will be further integrated into the Sparkfun Library for other footprints.  It c
 <wire x1="22.86" y1="63.5" x2="22.86" y2="60.96" width="0.1524" layer="91"/>
 </segment>
 </net>
-<net name="N$4" class="0">
-<segment>
-<pinref part="RELAY1" gate="G$1" pin="MAIN2"/>
-<pinref part="REL1" gate="G$1" pin="1"/>
-<wire x1="55.88" y1="55.88" x2="58.42" y2="55.88" width="0.1524" layer="91"/>
-</segment>
-</net>
-<net name="N$5" class="0">
+<net name="M1-2" class="0">
 <segment>
 <pinref part="REL1" gate="G$1" pin="2"/>
 <pinref part="RELAY1" gate="G$1" pin="NO"/>
@@ -4990,14 +4983,7 @@ will be further integrated into the Sparkfun Library for other footprints.  It c
 <wire x1="22.86" y1="5.08" x2="22.86" y2="2.54" width="0.1524" layer="91"/>
 </segment>
 </net>
-<net name="N$9" class="0">
-<segment>
-<pinref part="RELAY2" gate="G$1" pin="MAIN2"/>
-<pinref part="REL2" gate="G$1" pin="1"/>
-<wire x1="55.88" y1="-2.54" x2="58.42" y2="-2.54" width="0.1524" layer="91"/>
-</segment>
-</net>
-<net name="N$10" class="0">
+<net name="M2-2" class="0">
 <segment>
 <pinref part="REL2" gate="G$1" pin="2"/>
 <pinref part="RELAY2" gate="G$1" pin="NO"/>
@@ -5038,14 +5024,7 @@ will be further integrated into the Sparkfun Library for other footprints.  It c
 <wire x1="114.3" y1="66.04" x2="114.3" y2="63.5" width="0.1524" layer="91"/>
 </segment>
 </net>
-<net name="N$14" class="0">
-<segment>
-<pinref part="RELAY3" gate="G$1" pin="MAIN2"/>
-<pinref part="REL3" gate="G$1" pin="1"/>
-<wire x1="147.32" y1="58.42" x2="149.86" y2="58.42" width="0.1524" layer="91"/>
-</segment>
-</net>
-<net name="N$15" class="0">
+<net name="M3-2" class="0">
 <segment>
 <pinref part="REL3" gate="G$1" pin="2"/>
 <pinref part="RELAY3" gate="G$1" pin="NO"/>
@@ -5086,18 +5065,43 @@ will be further integrated into the Sparkfun Library for other footprints.  It c
 <wire x1="114.3" y1="7.62" x2="114.3" y2="5.08" width="0.1524" layer="91"/>
 </segment>
 </net>
-<net name="N$19" class="0">
-<segment>
-<pinref part="RELAY4" gate="G$1" pin="MAIN2"/>
-<pinref part="REL4" gate="G$1" pin="1"/>
-<wire x1="147.32" y1="0" x2="149.86" y2="0" width="0.1524" layer="91"/>
-</segment>
-</net>
-<net name="N$20" class="0">
+<net name="M4-2" class="0">
 <segment>
 <pinref part="REL4" gate="G$1" pin="2"/>
 <pinref part="RELAY4" gate="G$1" pin="NO"/>
 <wire x1="149.86" y1="-2.54" x2="147.32" y2="-2.54" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="M1-1" class="0">
+<segment>
+<pinref part="RELAY1" gate="G$1" pin="MAIN1"/>
+<pinref part="REL1" gate="G$1" pin="1"/>
+<wire x1="55.88" y1="60.96" x2="58.42" y2="60.96" width="0.1524" layer="91"/>
+<wire x1="58.42" y1="60.96" x2="58.42" y2="55.88" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="M3-1" class="0">
+<segment>
+<pinref part="RELAY3" gate="G$1" pin="MAIN1"/>
+<pinref part="REL3" gate="G$1" pin="1"/>
+<wire x1="147.32" y1="63.5" x2="149.86" y2="63.5" width="0.1524" layer="91"/>
+<wire x1="149.86" y1="63.5" x2="149.86" y2="58.42" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="M4-1" class="0">
+<segment>
+<pinref part="RELAY4" gate="G$1" pin="MAIN1"/>
+<pinref part="REL4" gate="G$1" pin="1"/>
+<wire x1="147.32" y1="5.08" x2="149.86" y2="5.08" width="0.1524" layer="91"/>
+<wire x1="149.86" y1="5.08" x2="149.86" y2="0" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="M2-1" class="0">
+<segment>
+<pinref part="RELAY2" gate="G$1" pin="MAIN1"/>
+<pinref part="REL2" gate="G$1" pin="1"/>
+<wire x1="55.88" y1="2.54" x2="58.42" y2="2.54" width="0.1524" layer="91"/>
+<wire x1="58.42" y1="2.54" x2="58.42" y2="-2.54" width="0.1524" layer="91"/>
 </segment>
 </net>
 </nets>

@@ -4584,7 +4584,7 @@ We've spent an enormous amount of time creating and checking these footprints an
 <part name="TREL1" library="transistor" deviceset="2N3904" device=""/>
 <part name="SUPPLY2" library="supply2" deviceset="GND" device=""/>
 <part name="RELIND1" library="adafruit" deviceset="LED" device="3MM"/>
-<part name="RRELED1" library="adafruit" deviceset="R-US_" device="0204/7" value="470"/>
+<part name="RRELED1" library="adafruit" deviceset="R-US_" device="0204/7" value="10K"/>
 <part name="SUPPLY6" library="supply2" deviceset="GND" device=""/>
 <part name="REL1" library="SparkFun-Connectors" deviceset="M02" device="5MM" value="TERM"/>
 <part name="FLY2" library="adafruit" deviceset="DIODE" device="DO-1N4148"/>
@@ -4594,7 +4594,7 @@ We've spent an enormous amount of time creating and checking these footprints an
 <part name="TREL2" library="transistor" deviceset="2N3904" device=""/>
 <part name="SUPPLY4" library="supply2" deviceset="GND" device=""/>
 <part name="RELIND2" library="adafruit" deviceset="LED" device="3MM"/>
-<part name="RRELED2" library="adafruit" deviceset="R-US_" device="0204/7" value="470"/>
+<part name="RRELED2" library="adafruit" deviceset="R-US_" device="0204/7" value="10K"/>
 <part name="REL2" library="SparkFun-Connectors" deviceset="M02" device="5MM" value="TERM"/>
 <part name="FLY3" library="adafruit" deviceset="DIODE" device="DO-1N4148"/>
 <part name="SUPPLY5" library="supply2" deviceset="VCC" device=""/>
@@ -4603,7 +4603,7 @@ We've spent an enormous amount of time creating and checking these footprints an
 <part name="TREL3" library="transistor" deviceset="2N3904" device=""/>
 <part name="SUPPLY7" library="supply2" deviceset="GND" device=""/>
 <part name="RELIND3" library="adafruit" deviceset="LED" device="3MM"/>
-<part name="RRELED3" library="adafruit" deviceset="R-US_" device="0204/7" value="470"/>
+<part name="RRELED3" library="adafruit" deviceset="R-US_" device="0204/7" value="10K"/>
 <part name="REL3" library="SparkFun-Connectors" deviceset="M02" device="5MM" value="TERM"/>
 <part name="FLY4" library="adafruit" deviceset="DIODE" device="DO-1N4148"/>
 <part name="SUPPLY8" library="supply2" deviceset="VCC" device=""/>
@@ -4612,7 +4612,7 @@ We've spent an enormous amount of time creating and checking these footprints an
 <part name="TREL4" library="transistor" deviceset="2N3904" device=""/>
 <part name="SUPPLY9" library="supply2" deviceset="GND" device=""/>
 <part name="RELIND4" library="adafruit" deviceset="LED" device="3MM"/>
-<part name="RRELED4" library="adafruit" deviceset="R-US_" device="0204/7" value="470"/>
+<part name="RRELED4" library="adafruit" deviceset="R-US_" device="0204/7" value="10K"/>
 <part name="REL4" library="SparkFun-Connectors" deviceset="M02" device="5MM" value="TERM"/>
 <part name="SUPPLY10" library="supply2" deviceset="VCC" device=""/>
 <part name="SUPPLY11" library="supply2" deviceset="VCC" device=""/>

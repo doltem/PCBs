@@ -523,28 +523,28 @@ design rules under a new name.</description>
 <element name="RTREL1" library="adafruit" package="0204/7" value="1K" x="17.78" y="50.8" rot="R180"/>
 <element name="TREL1" library="transistor" package="TO92" value="2N3904" x="25.4" y="49.53"/>
 <element name="RELIND1" library="adafruit" package="LED3MM" value="" x="25.4" y="45.72" rot="R90"/>
-<element name="RRELED1" library="adafruit" package="0204/7" value="470" x="17.78" y="45.72"/>
+<element name="RRELED1" library="adafruit" package="0204/7" value="10K" x="17.78" y="45.72"/>
 <element name="REL1" library="SparkFun-Connectors" package="SCREWTERMINAL-5MM-2" value="TERM" x="13.97" y="5.08"/>
 <element name="FLY2" library="adafruit" package="DO-1N4148" value="" x="49.53" y="47.96" rot="R90"/>
 <element name="RTPUL2" library="adafruit" package="0204/7" value="10k" x="35.56" y="48.26"/>
 <element name="RTREL2" library="adafruit" package="0204/7" value="1K" x="35.56" y="50.8" rot="R180"/>
 <element name="TREL2" library="transistor" package="TO92" value="2N3904" x="44.45" y="49.53"/>
 <element name="RELIND2" library="adafruit" package="LED3MM" value="" x="44.45" y="45.72" rot="R90"/>
-<element name="RRELED2" library="adafruit" package="0204/7" value="470" x="35.56" y="45.72"/>
+<element name="RRELED2" library="adafruit" package="0204/7" value="10K" x="35.56" y="45.72"/>
 <element name="REL2" library="SparkFun-Connectors" package="SCREWTERMINAL-5MM-2" value="TERM" x="41.91" y="5.08"/>
 <element name="FLY3" library="adafruit" package="DO-1N4148" value="" x="81.28" y="47.96" rot="R90"/>
 <element name="RTPUL3" library="adafruit" package="0204/7" value="10k" x="74.93" y="48.26"/>
 <element name="RTREL3" library="adafruit" package="0204/7" value="1K" x="74.93" y="50.8"/>
 <element name="TREL3" library="transistor" package="TO92" value="2N3904" x="86.36" y="49.53"/>
 <element name="RELIND3" library="adafruit" package="LED3MM" value="" x="86.36" y="45.72" rot="R90"/>
-<element name="RRELED3" library="adafruit" package="0204/7" value="470" x="74.93" y="45.72"/>
+<element name="RRELED3" library="adafruit" package="0204/7" value="10K" x="74.93" y="45.72"/>
 <element name="REL3" library="SparkFun-Connectors" package="SCREWTERMINAL-5MM-2" value="TERM" x="71.12" y="5.08"/>
 <element name="FLY4" library="adafruit" package="DO-1N4148" value="" x="101.6" y="48.26" rot="R90"/>
 <element name="RTPUL4" library="adafruit" package="0204/7" value="10k" x="95.25" y="50.8"/>
 <element name="RTREL4" library="adafruit" package="0204/7" value="1K" x="95.25" y="48.26"/>
 <element name="TREL4" library="transistor" package="TO92" value="2N3904" x="106.68" y="49.53"/>
 <element name="RELIND4" library="adafruit" package="LED3MM" value="" x="106.68" y="45.72" rot="R90"/>
-<element name="RRELED4" library="adafruit" package="0204/7" value="470" x="95.25" y="45.72"/>
+<element name="RRELED4" library="adafruit" package="0204/7" value="10K" x="95.25" y="45.72"/>
 <element name="REL4" library="SparkFun-Connectors" package="SCREWTERMINAL-5MM-2" value="TERM" x="100.33" y="5.08"/>
 <element name="X1" library="con-molex" package="22-23-2061" value="" x="60.2" y="48.3" rot="R180">
 <attribute name="OC_NEWARK" value="27C1933" x="60.2" y="48.3" size="1.778" layer="27" rot="R180" display="off"/>

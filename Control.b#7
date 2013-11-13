@@ -145,7 +145,7 @@
 <hole x="81.28" y="3.81" drill="3.2"/>
 <hole x="81.28" y="55.88" drill="3.2"/>
 <hole x="3.81" y="55.88" drill="3.2"/>
-<text x="5.08" y="13.97" size="0.8128" layer="1">VCC</text>
+<text x="3.81" y="13.97" size="0.8128" layer="1">VCC</text>
 <text x="11.43" y="10.16" size="0.8128" layer="1" rot="R90">REL1</text>
 </plain>
 <libraries>

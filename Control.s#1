@@ -17372,9 +17372,9 @@ SMT header is CONN-09042.</description>
 <part name="AGND5" library="supply1" deviceset="AGND" device=""/>
 <part name="AGND6" library="supply1" deviceset="AGND" device=""/>
 <part name="AGND7" library="supply1" deviceset="AGND" device=""/>
-<part name="X13" library="con-molex" deviceset="22-23-2041" device="" value="I2C"/>
+<part name="I2C" library="con-molex" deviceset="22-23-2041" device="" value="I2C"/>
 <part name="SUPPLY19" library="supply2" deviceset="GND" device=""/>
-<part name="X14" library="con-molex" deviceset="22-23-2061" device="" value="RELAY"/>
+<part name="RELAY" library="con-molex" deviceset="22-23-2061" device="" value="RELAY"/>
 </parts>
 <sheets>
 <sheet>
@@ -17491,17 +17491,17 @@ SMT header is CONN-09042.</description>
 <instance part="AGND5" gate="VR1" x="10.16" y="71.12"/>
 <instance part="AGND6" gate="VR1" x="30.48" y="104.14"/>
 <instance part="AGND7" gate="VR1" x="25.4" y="111.76"/>
-<instance part="X13" gate="-1" x="58.42" y="40.64" rot="R180"/>
-<instance part="X13" gate="-2" x="58.42" y="43.18" rot="R180"/>
-<instance part="X13" gate="-3" x="58.42" y="45.72" rot="R180"/>
-<instance part="X13" gate="-4" x="58.42" y="48.26" rot="R180"/>
+<instance part="I2C" gate="-1" x="58.42" y="40.64" rot="R180"/>
+<instance part="I2C" gate="-2" x="58.42" y="43.18" rot="R180"/>
+<instance part="I2C" gate="-3" x="58.42" y="45.72" rot="R180"/>
+<instance part="I2C" gate="-4" x="58.42" y="48.26" rot="R180"/>
 <instance part="SUPPLY19" gate="GND" x="66.04" y="33.02"/>
-<instance part="X14" gate="-1" x="50.8" y="66.04" rot="R180"/>
-<instance part="X14" gate="-2" x="50.8" y="68.58" rot="R180"/>
-<instance part="X14" gate="-3" x="50.8" y="71.12" rot="R180"/>
-<instance part="X14" gate="-4" x="50.8" y="73.66" rot="R180"/>
-<instance part="X14" gate="-5" x="50.8" y="76.2" rot="R180"/>
-<instance part="X14" gate="-6" x="50.8" y="78.74" rot="R180"/>
+<instance part="RELAY" gate="-1" x="50.8" y="66.04" rot="R180"/>
+<instance part="RELAY" gate="-2" x="50.8" y="68.58" rot="R180"/>
+<instance part="RELAY" gate="-3" x="50.8" y="71.12" rot="R180"/>
+<instance part="RELAY" gate="-4" x="50.8" y="73.66" rot="R180"/>
+<instance part="RELAY" gate="-5" x="50.8" y="76.2" rot="R180"/>
+<instance part="RELAY" gate="-6" x="50.8" y="78.74" rot="R180"/>
 </instances>
 <busses>
 </busses>
@@ -17637,10 +17637,10 @@ SMT header is CONN-09042.</description>
 <segment>
 <wire x1="53.34" y1="66.04" x2="66.04" y2="66.04" width="0.1524" layer="91"/>
 <label x="66.04" y="66.04" size="1.778" layer="95"/>
-<pinref part="X14" gate="-1" pin="S"/>
+<pinref part="RELAY" gate="-1" pin="S"/>
 </segment>
 <segment>
-<pinref part="X13" gate="-1" pin="S"/>
+<pinref part="I2C" gate="-1" pin="S"/>
 <wire x1="60.96" y1="40.64" x2="66.04" y2="40.64" width="0.1524" layer="91"/>
 <wire x1="66.04" y1="40.64" x2="66.04" y2="35.56" width="0.1524" layer="91"/>
 <pinref part="SUPPLY19" gate="GND" pin="GND"/>
@@ -17665,7 +17665,7 @@ SMT header is CONN-09042.</description>
 <segment>
 <wire x1="53.34" y1="78.74" x2="66.04" y2="78.74" width="0.1524" layer="91"/>
 <label x="66.04" y="78.74" size="1.778" layer="95"/>
-<pinref part="X14" gate="-6" pin="S"/>
+<pinref part="RELAY" gate="-6" pin="S"/>
 </segment>
 </net>
 <net name="N$1" class="0">
@@ -17876,7 +17876,7 @@ SMT header is CONN-09042.</description>
 <wire x1="78.74" y1="58.42" x2="78.74" y2="60.96" width="0.1524" layer="91"/>
 <junction x="78.74" y="60.96"/>
 <pinref part="P+19" gate="1" pin="+5V"/>
-<pinref part="X13" gate="-4" pin="S"/>
+<pinref part="I2C" gate="-4" pin="S"/>
 <wire x1="60.96" y1="48.26" x2="66.04" y2="48.26" width="0.1524" layer="91"/>
 <wire x1="66.04" y1="48.26" x2="66.04" y2="60.96" width="0.1524" layer="91"/>
 <wire x1="66.04" y1="60.96" x2="71.12" y2="60.96" width="0.1524" layer="91"/>
@@ -17932,7 +17932,7 @@ SMT header is CONN-09042.</description>
 <segment>
 <wire x1="53.34" y1="76.2" x2="66.04" y2="76.2" width="0.1524" layer="91"/>
 <label x="66.04" y="76.2" size="1.778" layer="95"/>
-<pinref part="X14" gate="-5" pin="S"/>
+<pinref part="RELAY" gate="-5" pin="S"/>
 </segment>
 </net>
 <net name="REL2" class="0">
@@ -17944,7 +17944,7 @@ SMT header is CONN-09042.</description>
 <segment>
 <wire x1="53.34" y1="73.66" x2="66.04" y2="73.66" width="0.1524" layer="91"/>
 <label x="66.04" y="73.66" size="1.778" layer="95"/>
-<pinref part="X14" gate="-4" pin="S"/>
+<pinref part="RELAY" gate="-4" pin="S"/>
 </segment>
 </net>
 <net name="REL3" class="0">
@@ -17956,7 +17956,7 @@ SMT header is CONN-09042.</description>
 <segment>
 <wire x1="53.34" y1="71.12" x2="66.04" y2="71.12" width="0.1524" layer="91"/>
 <label x="66.04" y="71.12" size="1.778" layer="95"/>
-<pinref part="X14" gate="-3" pin="S"/>
+<pinref part="RELAY" gate="-3" pin="S"/>
 </segment>
 </net>
 <net name="+3V3" class="0">
@@ -18129,7 +18129,7 @@ SMT header is CONN-09042.</description>
 <wire x1="78.74" y1="43.18" x2="91.44" y2="43.18" width="0.1524" layer="91"/>
 <wire x1="78.74" y1="48.26" x2="78.74" y2="43.18" width="0.1524" layer="91"/>
 <junction x="78.74" y="43.18"/>
-<pinref part="X13" gate="-2" pin="S"/>
+<pinref part="I2C" gate="-2" pin="S"/>
 </segment>
 </net>
 <net name="REL4" class="0">
@@ -18141,7 +18141,7 @@ SMT header is CONN-09042.</description>
 <segment>
 <wire x1="53.34" y1="68.58" x2="66.04" y2="68.58" width="0.1524" layer="91"/>
 <label x="66.04" y="68.58" size="1.778" layer="95"/>
-<pinref part="X14" gate="-2" pin="S"/>
+<pinref part="RELAY" gate="-2" pin="S"/>
 </segment>
 </net>
 <net name="SDA" class="0">
@@ -18157,7 +18157,7 @@ SMT header is CONN-09042.</description>
 <wire x1="71.12" y1="45.72" x2="91.44" y2="45.72" width="0.1524" layer="91"/>
 <wire x1="71.12" y1="48.26" x2="71.12" y2="45.72" width="0.1524" layer="91"/>
 <junction x="71.12" y="45.72"/>
-<pinref part="X13" gate="-3" pin="S"/>
+<pinref part="I2C" gate="-3" pin="S"/>
 </segment>
 </net>
 <net name="AL4" class="0">

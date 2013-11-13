@@ -17324,14 +17324,14 @@ SMT header is CONN-09042.</description>
 <part name="+3V3" library="supply1" deviceset="+3V3" device=""/>
 <part name="SUPPLY31" library="supply2" deviceset="GND" device=""/>
 <part name="SUPPLY32" library="supply2" deviceset="GND" device=""/>
-<part name="RXASC" library="adafruit" deviceset="R-US_" device="0204/7" value="220"/>
+<part name="RXASC" library="adafruit" deviceset="R-US_" device="0204/7" value="10K"/>
 <part name="XASC" library="adafruit" deviceset="LED" device="3MM"/>
 <part name="RSSI1" library="adafruit" deviceset="PINHD-1X1" device=""/>
 <part name="XDIV1" library="adafruit" deviceset="R-US_" device="0204/7" value="10K"/>
 <part name="XDIV2" library="adafruit" deviceset="R-US_" device="0204/7" value="15K"/>
 <part name="SUPPLY13" library="supply2" deviceset="GND" device=""/>
 <part name="SUPPLY14" library="supply2" deviceset="GND" device=""/>
-<part name="RXON" library="adafruit" deviceset="R-US_" device="0204/7" value="220"/>
+<part name="RXON" library="adafruit" deviceset="R-US_" device="0204/7" value="10K"/>
 <part name="XON" library="adafruit" deviceset="LED" device="3MM"/>
 <part name="P+18" library="supply1" deviceset="+5V" device=""/>
 <part name="SUPPLY1" library="supply2" deviceset="GND" device=""/>

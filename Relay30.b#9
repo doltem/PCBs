@@ -146,9 +146,9 @@
 <hole x="115.57" y="52.07" drill="3.2"/>
 <hole x="115.57" y="3.81" drill="3.2"/>
 <text x="53.2" y="50.4" size="0.8128" layer="1">VCC</text>
-<text x="62.3" y="51.8" size="0.8128" layer="1">GND</text>
-<text x="62.3" y="49" size="0.8128" layer="1">REL3</text>
-<text x="62.3" y="46.2" size="0.8128" layer="1">REL4</text>
+<text x="63" y="51.8" size="0.8128" layer="1">GND</text>
+<text x="63" y="49" size="0.8128" layer="1">REL3</text>
+<text x="63" y="46.2" size="0.8128" layer="1">REL4</text>
 </plain>
 <libraries>
 <library name="pinhead">
